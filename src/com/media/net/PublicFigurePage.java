@@ -8,6 +8,7 @@ import java.util.List;
 public class PublicFigurePage extends Page {
     @Override
     public String getAboutDetails() {
+        System.out.println("Fetching About section details of given Public Figure Page");
         return aboutDetails;
     }
 

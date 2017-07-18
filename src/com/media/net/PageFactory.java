@@ -18,4 +18,9 @@ public class PageFactory extends FacebookAbstractFactory {
 
         return null;
     }
+
+    @Override
+    public Post getPost(String typeOfPost) {
+        return null;
+    }
 }

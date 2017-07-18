@@ -8,6 +8,8 @@ import java.util.List;
 public class CommunityPage extends Page {
     @Override
     public String getAboutDetails() {
+        System.out.println("Fetching About section details of given Community Page");
+
         return aboutDetails;
     }
 
