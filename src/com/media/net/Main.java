@@ -37,5 +37,6 @@ public class Main {
         
         facebookAbstractFactory = FactoryProducer.getFactory("Post");
         testPostFactory(facebookAbstractFactory);
+
     }
 }
