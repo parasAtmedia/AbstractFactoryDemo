@@ -17,4 +17,9 @@ public class CommunityPage extends Page {
     public List<String> getFollowers() {
         return followers;
     }
+
+    @Override
+    public String getTypeOfPage() {
+        return "Community Page";
+    }
 }

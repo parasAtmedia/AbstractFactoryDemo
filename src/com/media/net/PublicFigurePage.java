@@ -16,4 +16,9 @@ public class PublicFigurePage extends Page {
     public List<String> getFollowers() {
         return followers;
     }
+
+    @Override
+    public String getTypeOfPage() {
+        return "Public Figure Page";
+    }
 }

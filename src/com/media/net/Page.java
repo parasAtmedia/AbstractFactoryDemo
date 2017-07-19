@@ -12,6 +12,8 @@ public abstract class Page {
     public abstract String getAboutDetails();
     public abstract List<String> getFollowers();
 
+    public abstract String getTypeOfPage();
+
     public void setAboutDetails(String aboutDetails) {
         this.aboutDetails = aboutDetails;
     }
