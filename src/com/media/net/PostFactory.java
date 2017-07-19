@@ -4,6 +4,11 @@ package com.media.net;
  * Created by paras.a on 18/07/17.
  */
 public class PostFactory extends FacebookAbstractFactory {
+
+    public PostFactory() {
+
+    }
+
     @Override
     public Page getPage(String typeOfPage) {
         return null;
