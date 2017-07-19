@@ -33,9 +33,13 @@ class RestrictedFB {
         postType2 = postFactory.getPost(permittedPosts[1]);
     }
 
-//    public getPageContent(){
-//        return this.page1.
-//    }
+    public String getPageList(){
+        return this.page1.getPageName() + this.page2.getPageName();
+    }
+
+    public String getPostList(){
+        return this.postType1.getPostName() + this.postType2.getPostName();
+    }
 }
 
 public class RestrictedFacebook{
