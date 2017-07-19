@@ -8,4 +8,8 @@ public class VideoPost extends Post {
     public void submitPost() {
         System.out.println("Video Post Submitted on your wall!");
     }
+
+    public String getTypeOfPost() {
+        return "Video Post";
+    }
 }

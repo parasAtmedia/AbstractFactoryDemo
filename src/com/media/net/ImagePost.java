@@ -8,4 +8,8 @@ public class ImagePost extends Post {
     public void submitPost() {
         System.out.println("Image Post Submitted on your wall!");
     }
+
+    public String getTypeOfPost() {
+        return "Image Post";
+    }
 }

@@ -34,11 +34,11 @@ class RestrictedFB {
     }
 
     public String getPageList(){
-        return this.page1.getPageName() + this.page2.getPageName();
+        return this.page1.getTypeOfPage() + this.page2.getTypeOfPage();
     }
 
     public String getPostList(){
-        return this.postType1.getPostName() + this.postType2.getPostName();
+        return this.postType1.getTypeOfPost() + this.postType2.getTypeOfPost();
     }
 }
 

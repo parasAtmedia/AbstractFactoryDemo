@@ -8,4 +8,8 @@ public class NewsPost extends Post {
     public void submitPost() {
         System.out.println("News Post Submitted on your wall!");
     }
+
+    public String getTypeOfPost() {
+        return "News Post";
+    }
 }

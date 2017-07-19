@@ -6,5 +6,6 @@ package com.media.net;
 public abstract class Post {
 
     public abstract void submitPost();
+    public abstract String getTypeOfPost();
 
 }
